@@ -62,7 +62,7 @@ int solution(int K, int M, vector<int> &A) {
     int max_val =0; 
     for (auto i : A )
     {//the max should be the sum of all elements
-    //the min should be the maximum value in the array 
+    //the min (the lowest possible) should be the maximum value in the array 
         max_val += i; 
         min_val = (min_val < i)? i:min_val;
     }
